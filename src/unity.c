@@ -151,7 +151,7 @@ void UnityPrint(const char* string)
 
 /*-----------------------------------------------*/
 #if defined(__AVR_ARCH__)
-void UnityPrintConst(const char* string)
+static void UnityPrintConst(const char* string)
 {
     const char* pch = string;
 
